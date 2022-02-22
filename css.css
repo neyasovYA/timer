@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+.timer-area{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(67, 67, 156);
+    
+}
+
+.timer-area__cont, .timer-area__t-display, .time-block{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.timer-area__t-display{
+    border: 15px white dashed;
+
+}
+
+.timer-area__cont{
+    width: 80%;
+    min-height: 100vh;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.timer-area__t-display{
+    color: #fff;
+}
+
+.time-block{
+    flex-direction: column;
+    margin-right: 25px;
+    min-width: 140px;
+}
+
+
+
+.hours-number,.minutes-number,.seconds-number,.days-number{
+    font-weight: 800;
+    font-size: 200px;
+}
+
+.t-display__dots{
+    font-weight: 500;
+    font-size: 190px;
+    margin-right: 25px;
+    align-self: flex-start;
+}
+
+.seconds-subtitle, .minutes-subtitle, .hours-subtitle, .days-subtitle{
+    font-size: 50px;
+    font-weight: 100;
+
+}
+
